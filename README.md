@@ -1,4 +1,5 @@
 # Gradient Centralization
+## Paper Review by Toshant Narula, Pawandeep Suryavanshi, Himanshu Kumar Anand
 
 ## [Gradient Centralization: A New Optimization Technique for Deep Neural Networks](https://arxiv.org/abs/2004.01461)
 
@@ -10,7 +11,7 @@
 
 <div  align="center"><img src="https://github.com/Yonghongwei/Gradient-Centralization/blob/master/fig/gradient.png" height="45%" width="45%" alt="Illustration of the GC operation on gradient matrix/tensor of weights in the fully-connected layer (left) and convolutional layer (right)."/></div>
 
-* GC can be viewed as a projected gradient descent method with a constrained loss function.  The Lipschitzness of the constrained loss function and its gradient is better so that the training process becomes more efficient and stable.   Our experiments on various applications, including `general image classification`, `fine-grained image classification`, `detection and segmentation` and `Person ReID` demonstrate that GC can consistently improve the performance of DNN learning. 
+* GC can be viewed as a projected gradient descent method with a constrained loss function.  The Lipschitzness of the constrained loss function and its gradient is better so that the training process becomes more efficient and stable. Our experiments on various applications, including `general image classification`, `fine-grained image classification`, `detection and segmentation` and `Person ReID` demonstrate that GC can consistently improve the performance of DNN learning. 
 
 <div  align="center"><img src="https://github.com/Yonghongwei/Gradient-Centralization/blob/master/fig/projected_Grad.png" height="50%" width="50%" alt=""/></div>
 
@@ -32,7 +33,7 @@ general image classification (Mini-ImageNet,  CIFAR100 and ImageNet) and Fine-gr
 * 2020/08/08:Release the code of some advanced optimizers with GC.
 ***
 
-## Citation
+## Citation for original paper
     @article{GradientCentra,
       title={Gradient-Centralization: A New Optimization Technique for Deep Neural Networks},
       author={Hongwei Yong and Jianqiang Huang and Xiansheng Hua and Lei Zhang},
@@ -41,7 +42,7 @@ general image classification (Mini-ImageNet,  CIFAR100 and ImageNet) and Fine-gr
     }
 
 ***
-## Link to the other implementation of GC
+## Link to the other implementations of GC
 * Gradient Centralization in TensorFlow [`https://github.com/Rishit-dagli/Gradient-Centralization-TensorFlow`](https://github.com/Rishit-dagli/Gradient-Centralization-TensorFlow)
 * Gradient Centralization in Ranger optimizer [`https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer`](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer)
 
