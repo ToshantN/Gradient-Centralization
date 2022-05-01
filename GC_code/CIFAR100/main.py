@@ -62,9 +62,9 @@ transform_test = transforms.Compose([
     transforms.Normalize((0.507, 0.487, 0.441), (0.267, 0.256, 0.276)),
   ])
 trainset = torchvision.datasets.CIFAR100(root='/content/data/cifar100/', train=True, download=True, transform=transform_train)
-trainloader = torch.utils.data.DataLoader(trainset, batch_size=args.bs, shuffle=True, num_workers=4,drop_last=True)
+trainloader = torch.utils.data.DataLoader(trainset, batch_size=args.bs, shuffle=True,drop_last=True)
 testset = torchvision.datasets.CIFAR100(root='/content/data/cifar100/', train=False, download=True, transform=transform_test)
-testloader = torch.utils.data.DataLoader(testset, batch_size=128, shuffle=False, num_workers=4)
+testloader = torch.utils.data.DataLoader(testset, batch_size=128, shuffle=False)
 
 
 
