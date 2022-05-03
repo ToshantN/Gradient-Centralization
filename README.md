@@ -40,13 +40,6 @@ general image classification (Mini-ImageNet,  CIFAR100 and ImageNet) and Fine-gr
       booktitle={the European Conference on Conputer Vision},
       year={2020}
     }
-
-***
-## Link to the other implementations of GC
-* Gradient Centralization in TensorFlow [`https://github.com/Rishit-dagli/Gradient-Centralization-TensorFlow`](https://github.com/Rishit-dagli/Gradient-Centralization-TensorFlow)
-* Gradient Centralization in Ranger optimizer [`https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer`](https://github.com/lessw2020/Ranger-Deep-Learning-Optimizer)
-
-
 ## Experiments
 ***
 
